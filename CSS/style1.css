@@ -1,0 +1,129 @@
+
+.header_1{
+	    z-index: 2;
+}
+
+.header_2{
+	    z-index: 2;
+}
+
+ul>.menu{
+list-style-type: none;
+}
+
+.picture{
+    z-index: 1;
+    transform: translateY(-18px);
+		}
+.main_3{
+    margin: auto 0;/*почему не делается отценторовка?  - из-за белого фона в классе white*/
+    z-index: 2;
+}
+
+.main_4{
+    z-index: 1;
+    transform: translateY(-100px);    
+}
+
+
+
+.header_3>.menu>ul>li{
+    color: #3f3f3f;
+    }
+
+.menu>ul li:first-child,
+.main_1>div.left p:nth-child(2),
+.main_5>div.about p:nth-child(3) 
+{
+     color: #2c789c;
+}
+
+/*.main_1>div.left p:first-child,*/ .main_3>div.info p:nth-child(2){
+    color: #1d1e1b;
+    font-weight: bold;
+}
+
+.header_3>.menu>ul>li, .main_1>div.left p:nth-child(2), .main_3>div.info p:nth-child(2), .main_5>div.about p:nth-child(3){
+    font: 12pt Arial sans-serif;
+    }
+
+
+.main_1>div.left p:first-child{
+    font: 17pt Arial sans-serif;
+    font-weight: bold;
+        }
+
+
+.main_1>div.left p:nth-child(2){
+  text-align: center;
+    text-indent: 30px;
+}
+
+
+.main_1>div.left{
+    padding: 200px 0 120px 0;
+    box-sizing: border-box;
+}
+
+.main_2, h2/*.main_4>div p:first-child, .main_5>div p:first-child*/ {
+    color: #ffffff;
+}
+
+
+.main_3>div.info p:first-child, .main_3>div.form p{
+    color: #000000;
+    font: 18pt Arial sans-serif;
+    font-weight: bold;
+}
+
+.main_3>div.info p:last-child{
+ color: #7b7d78;
+}
+
+.main_4, .main_5, footer {
+    color: #94998f;
+    font: 10pt Arial sans-serif;
+}
+
+h2, .main_2>.read_more_1 p:first-child, .main_2>.read_more_2 p:first-child, .main_2>.read_more_3 p:first-child{
+    font: 14pt Arial sans-serif;
+    }
+
+.main_2>.read_more_1 p:first-child,
+.main_2>.read_more_2 p:first-child,
+.main_2>.read_more_3 p:first-child,
+.main_3>div.info p:nth-child(2)
+
+{
+    font-weight: bold;
+}
+
+
+
+.main_3>div.form button{
+    margin: 30px 0 13px 0;
+    background-color: #1d1e1b;
+    color: #ffffff;
+    height: 25px;
+    width: 100px;
+    border-radius: 25%;
+    border: none;
+    font: 12pt Arial sans-serif
+    
+}
+
+.main_3>div.form input{
+    margin-bottom: 12px;
+    padding: 10px 0 10px 0;
+}
+
+.main_3>div.form>p{
+    line-height: 8px;
+}
+
+.footer_1{
+    color: 9b9d99;
+}
+
+
+/*color="#2c789c" - кнопка синяя  20зч - отступ в ли последнем*/

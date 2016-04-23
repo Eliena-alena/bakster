@@ -1,0 +1,440 @@
+.wrapper{
+	max-width: 1025px;
+	max-height: 1800px;
+	background-color: #ffffff;
+	font-family:  12px Arial sans-serif;
+      	}
+
+div{
+	width: inherit;
+	height: inherit;
+	box-sizing: border-box;
+}
+
+.header_3 div,
+ul>.menu,
+li.menu,
+.main_1 div,
+.main_2>.read_more_1,
+.main_2>.read_more_2,
+.main_2>.read_more_3,
+.main_3 div,
+.main_4>.planning,
+.main_4>.our_team,
+.main_4>.blog, 
+.main_4>.blog>.row>.left,
+.main_4>.blog>.row>.right,
+.main_5 div,
+footer div
+	{
+	float: left;
+}
+
+/*header{
+	height: 160px;
+	}*/
+
+.header_1{
+	height: 10px;
+	z-index: 2;
+    }
+
+.header_1, .main_4, footer {
+	background-color: #131412;
+	}
+
+.header_2{
+	height: 8px;
+	background-color: #dcdddb;
+	z-index: 2;
+
+    }
+
+.header_3{
+       height: 142px;
+   }
+
+.logo{
+	width: 205px;
+    	margin-right: 60px;
+    	margin-left: 73px;
+	}
+
+.picture{
+	width: 76px;
+	margin-left: 29px;
+    	margin-right: 40px;
+	z-index: 1;
+    transform: translateY(-18px);
+
+    		}
+
+div.menu{
+	width: 540px;
+	}
+
+li.menu{
+	margin-right: 28px;
+    }
+
+.main_1{
+	height: 395px;
+	margin-bottom: 25px;
+	}
+
+.main_1>.left{
+	width: 435px;
+    	margin-left: 70px; 
+      padding: 200px 0 120px 0;
+   	background-image: url(../Image/Content/letters.png);
+	background-size: contain;
+	background-position: right;
+   	background-repeat: no-repeat;
+}
+
+.main_1>.right{
+    width: 370px;
+    margin: 0 60px 0 90px;
+}
+
+.main_2{
+    height: 145px;
+   width: 930px;
+    /*margin: 0 49px 0 46px;*/
+	margin: 0 auto;
+    }
+
+.main_2>.read_more_1,
+.main_2>.read_more_2,
+.main_2>.read_more_3{
+    padding: 0 30px 13px 30px;
+    }
+
+.main_2>.read_more_1{
+    width: 305px;
+    padding-left: 17px;
+    background-color: #2c789c;
+    background-image: url(../Image/Content/pic_people.png);
+    background-position: 97% 8%;
+    background-repeat: no-repeat;
+	z-index:4;
+    }
+
+
+.main_2>.read_more_2{
+    width: 325px;
+    background-color: #e5b00d;
+    background-image: url(../Image/Content/pic_comp.png);
+    background-position: 97% 8%;
+    background-repeat: no-repeat;
+	z-index:2;
+    }
+
+.main_2>.read_more_3{
+    width: 300px;
+    background-color: #97ba15;
+    background-image: url(../Image/Content/pic_mark.png);
+    background-position: 97% 8%;
+    background-repeat: no-repeat;
+    }
+
+.main_2 > div {
+    position: relative;
+}
+
+.main_2>.read_more_2>img {
+    position: absolute;
+    top: 35px;
+    left: -19px;
+	z-index:3;
+}
+
+ .main_2>.read_more_3>img  {
+    position: absolute;
+    top: 35px;
+    left: -25px;
+	z-index:1;
+
+}
+
+.main_3{
+    width: 930px;
+	height: 274px;
+	margin: 0 auto;
+	border-radius: 3%;
+  /*  position: relative;
+	z-index:20;*/
+
+}
+
+
+.main_3>.info{
+    width: 595px;
+    padding: 0 22px 0 43px;
+}
+
+.main_3>.form{
+    width: 265px;
+    padding: 0 43px 0 20px;
+}
+
+.main_4{
+	height: 430px;
+
+/* height: 530px;
+    padding-top: 100px;
+/*position: relative;
+top: -100px;
+z-index: 10;
+   /*transform: translateY(-100px);   */
+
+
+    }
+
+.main_4>.planning,
+.main_4>.our_team,
+.main_4>.blog,
+.main_5>.about,
+.main_5>.partners_1,
+.main_5>.partners_2{
+    width: 292px;
+    margin-right: 36px;
+    }
+
+.main_4>.planning,
+.main_5>.about {
+    margin-left: 41px;
+}
+
+.main_4>.blog>.row{
+    height: 81px;
+    margin-bottom: 42px;
+}
+
+
+.main_4>.blog>.row>.left{
+    width: 110px;  
+    margin-right: 10px;
+    }
+
+.main_4>.blog>.row>.right{
+    width: 172px;    
+    }
+
+.main_4{
+    
+}
+
+.main_5{
+    	height: 217px;
+	background-color: #2e302c;
+
+    }
+
+footer{
+    height: 154px;
+}
+
+footer>div{
+    width: 50%;
+    }
+
+.footer_2>div.menu{
+    height: 110px;
+    padding: 78px 0 0px 0;
+    margin: 0 40px 10px 0;
+}
+
+ul>.menu{
+list-style-type: none;
+}
+
+.menu>ul>li>a{
+    	text-decoration: none;
+    }
+
+.header_3>.menu>ul>li a{
+    color: #3f3f3f;
+	    }
+
+
+
+.main_1>div.left p:first-child,
+.main_3>div.info p:nth-child(2){
+    color: #1d1e1b;
+    }
+
+
+
+
+.main_1>div.left p:first-child,
+.main_3>div.info p:first-child,
+.main_3>div.form p
+	{
+    font-size: 17pt;
+                }
+
+.main_1>div.left p:nth-child(2){
+ text-align: center;
+  text-indent: 70px;
+}
+
+.main_2,
+h2,
+.main_4>.blog>.row>.right p:first-child
+ {
+    color: #ffffff;
+}
+
+.main_3>div.info p:first-child,
+.main_3>div.form p{
+    color: #000000;
+	font-size: 18pt; 
+        }
+
+.main_3>div.info p:last-child{
+ color: #7b7d78;
+}
+
+.main_4,
+.main_5,
+footer,
+.footer_2>.menu>ul>li a
+{
+    color: #94998f;
+    font-size: 10pt;
+}
+
+
+.main_2>div p,
+.main_3>div.info p:first-child,
+.main_3>div.info p:nth-child(2)
+{
+     line-height: 16px;
+}
+
+.main_4>.blog>.row>.right p,
+.main_4>div p
+{
+    line-height: 13px;
+   }
+
+.main_4>.blog>.row>.right p:first-child
+{
+     line-height: 0;
+   }
+
+h2,
+.main_2>.read_more_1 p:first-child,
+.main_2>.read_more_2 p:first-child,
+.main_2>.read_more_3 p:first-child{
+    font-size: 14pt;
+    line-height: 11px;
+   /* padding-top: 1px;*/
+    }
+
+.main_1>div.left p:first-child,
+.main_2>.read_more_1 p:first-child,
+.main_2>.read_more_2 p:first-child,
+.main_2>.read_more_3 p:first-child,
+.main_3>div.info p:first-child,
+.main_3>div.info p:nth-child(2),
+.main_3>div.form p,
+.main_4>.blog>.row>.right p:first-child,
+.main_5>div.about p:nth-child(3)
+	{
+    font-weight: bold;
+}
+
+.footer_2>.menu>ul>li a{
+    color: #3f3f3f;
+	    }
+
+/*.menu>ul>li.menu a:first-child,/* - почему эта строка не работает?*/
+.main_1>div.left p:nth-child(2),
+.main_5>div.about p:nth-child(3),
+span,
+.main_4>.blog>.row>.right a
+{
+     color: #2c789c;
+}
+
+span{
+	font-size: 12pt;
+	font-weight: normal;
+
+}
+
+.main_5>div.about p:nth-child(3){
+    font-size: 12pt;
+}
+
+
+.main_3>div.form input{
+    margin-bottom: 12px;
+   /* padding: 10px 0 10px 0;*/
+	width: 265px;
+    line-height: 30px;
+}
+
+.main_3>div.form>p{
+    line-height: 8px;
+}
+
+button a {
+	text-decoration: none;
+    color: #94998f;   
+}
+
+
+button{
+    height: 25px;
+    width: 100px;
+    border-radius: 20%;
+    border: none;
+    color: #94998f;
+}
+
+
+.main_2>.read_more_1 button,
+.main_2>.read_more_2 button,
+.main_2>.read_more_3 button{
+    background-color: #ffffff;
+     margin: 0 0 12px 0;
+}
+
+.main_3>div.form button,
+.main_3>div.info button {
+    background-color: #1d1e1b;
+       
+}
+
+.main_3>div.form button{
+    margin: 30px 0 13px 0;
+   }
+
+.main_4>div button{
+    background-color: #2c789c;
+    margin: 14 0 35px 0;
+}
+
+
+
+.main_5>.partners_1>ul li, 
+.main_5>.partners_2>ul li {
+	margin-bottom: 10px;
+}
+
+
+.footer_1 p{
+     padding: 80px 0 60px 42px;
+    color: 9b9d99;
+    }
+
+.footer_2>.image{
+   /* position: absolute;
+    right: 39px;*/
+    float: right;
+    filter:grayscale(100%);
+} 
+
